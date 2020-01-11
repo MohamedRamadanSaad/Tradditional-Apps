@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hbm2ddl.auto">update</property>  
+    <property name="hibernate.dialect">org.hibernate.dialect.OracleDialect</property>
+    <property name="hibernate.connection.driver_class">oracle.jdbc.OracleDriver</property>
+    <property name="hibernate.connection.url">jdbc:oracle:thin:@localhost:1521:orcl</property>
+    <property name="hibernate.connection.username">dl13</property>
+    <property name="hibernate.connection.password">bc4j</property>
+    <property name="hibernate.show_sql">true</property>&gt;
+    <mapping resource="META-INF//hCustomer.hbm.xml"/>
+    <mapping resource="META-INF//hEmployee.hbm.xml"/>
+    <!--<mapping class="Model.HCustomer"/> 
+    <mapping class="Model.HCustomerContact"/>-->
+    
+  <mapping resource="META-INF/hEmployee.hbm.xml"/></session-factory>
+</hibernate-configuration>

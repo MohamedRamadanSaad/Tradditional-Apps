@@ -1,0 +1,12 @@
+
+CREATE OR REPLACE DIRECTORY tmp AS 'D:/temp';
+
+GRANT read, write ON DIRECTORY tmp TO dl;
+
+expdp dl/bc4j@localhost schemas=dl directory=tmp dumpfile=dl.dmp logfile=expdpDL.log
+
+impdp dl/bc4j@localhost schemas=dl directory=tmp dumpfile=dl.dmp logfile=expdpDL.log
+
+impdp dl/bc4j@localhost schemas=dl directory=tmp dumpfile=BACKUP_2018-08-16RAN3536.dmp logfile=log_file2018-08-16ran3536.log
+
+imp username/password file=D:\temp\BACKUP_2018-08-16RAN3536.dmp show=y

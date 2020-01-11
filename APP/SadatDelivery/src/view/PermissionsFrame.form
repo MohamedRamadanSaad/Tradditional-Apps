@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="&#x627;&#x644;&#x635;&#x644;&#x627;&#x62d;&#x64a;&#x627;&#x62a;"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabel1" alignment="1" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jPanel3" max="32767" attributes="0"/>
+                              <Component id="jPanel5" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="jPanel4" max="32767" attributes="0"/>
+                              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+                          <Component id="tx_PermissionName" min="-2" pref="179" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="bt_save" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="191" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" pref="29" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="tx_PermissionName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jPanel2" max="32767" attributes="0"/>
+                      <Component id="jPanel3" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jPanel4" max="32767" attributes="0"/>
+                      <Component id="jPanel5" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="bt_save" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel2">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="3" title="&#x639;&#x645;&#x644;&#x627;&#x621; &amp; &#x623;&#x648;&#x631;&#x62f;&#x631;&#x627;&#x62a;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace pref="44" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cb_CustomerSearch" alignment="1" max="32767" attributes="0"/>
+                          <Component id="cb_CreateOrder" alignment="1" max="32767" attributes="0"/>
+                          <Component id="cb_addcustomer" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cb_addcustomer" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cb_CustomerSearch" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cb_CreateOrder" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="cb_addcustomer">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x625;&#x636;&#x627;&#x641;&#x629; &#x639;&#x645;&#x644;&#x627;&#x621;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_CustomerSearch">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x625;&#x633;&#x62a;&#x639;&#x644;&#x627;&#x645; &#x639;&#x646; &#x639;&#x645;&#x64a;&#x644;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_CreateOrder">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x625;&#x646;&#x634;&#x627;&#x621; &#x623;&#x648;&#x631;&#x62f;&#x631;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="0"/>
+            <Property name="text" type="java.lang.String" value="&#x625;&#x646;&#x634;&#x627;&#x621; &#x627;&#x644;&#x635;&#x644;&#x627;&#x62d;&#x64a;&#x627;&#x62a;"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="3" title="&#x627;&#x644;&#x625;&#x62f;&#x627;&#x631;&#x627;&#x647; &#x648; &#x627;&#x644;&#x645;&#x631;&#x627;&#x62c;&#x639;&#x627;&#x62a;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cb_OrderReview" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_TimeLine" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="cb_AddJopDep" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_AddEmployee" min="-2" pref="93" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cb_AddEmployee" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_TimeLine" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cb_AddJopDep" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_OrderReview" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="cb_AddEmployee">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x625;&#x636;&#x627;&#x641;&#x629; &#x645;&#x648;&#x638;&#x641;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_AddJopDep">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x625;&#x636;&#x627;&#x641;&#x629; &#x625;&#x62f;&#x627;&#x631;&#x629; &#x648; &#x648;&#x638;&#x64a;&#x641;&#x629;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_OrderReview">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x645;&#x631;&#x627;&#x62c;&#x639;&#x629; &#x627;&#x644;&#x623;&#x648;&#x631;&#x62f;&#x631;&#x627;&#x62a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_TimeLine">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" &#x627;&#x644;&#x62c;&#x62f;&#x648;&#x644; &#x627;&#x644;&#x632;&#x645;&#x646;&#x64a;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel4">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="3" title="&#x627;&#x644;&#x625;&#x639;&#x62f;&#x627;&#x62f;&#x627;&#x62a;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="cb_Backup" alignment="1" max="32767" attributes="0"/>
+                          <Component id="cb_AddPermission" alignment="1" max="32767" attributes="0"/>
+                          <Component id="cb_AddUser" alignment="1" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cb_AddUser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="cb_AddPermission" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="cb_Backup" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="cb_AddUser">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x62a;&#x62e;&#x62f;&#x645;&#x64a;&#x646;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_AddPermission">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x635;&#x644;&#x627;&#x62d;&#x64a;&#x627;&#x62a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_Backup">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x646;&#x633;&#x62e; &#x627;&#x644;&#x625;&#x62d;&#x62a;&#x64a;&#x627;&#x637;&#x64a;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel5">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                <TitledBorder justification="3" title="&#x627;&#x644;&#x62a;&#x642;&#x627;&#x631;&#x64a;&#x631;"/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="cb_Rep5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="cb_Rep2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="cb_Rep4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="cb_Rep1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="cb_Rep6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="cb_Rep3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cb_Rep1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_Rep4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cb_Rep2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_Rep5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cb_Rep3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cb_Rep6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JCheckBox" name="cb_Rep1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x64a;&#x648;&#x645;&#x64a;&#x629;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_Rep2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x645;&#x644;&#x627;&#x621;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_Rep3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x625;&#x62c;&#x645;&#x627;&#x644;&#x64a; &#x645;&#x628;&#x627;&#x644;&#x63a; &#x627;&#x644;&#x62e;&#x62f;&#x645;&#x627;&#x62a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_Rep4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x645;&#x648;&#x627;&#x639;&#x64a;&#x62f; &#x627;&#x644;&#x623;&#x648;&#x631;&#x62f;&#x631;&#x627;&#x62a;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_Rep5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x623;&#x648;&#x631;&#x62f;&#x631;&#x627;&#x62a; &#x627;&#x644;&#x645;&#x641;&#x62a;&#x648;&#x62d;&#x629;"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JCheckBox" name="cb_Rep6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x623;&#x631;&#x628;&#x627;&#x62d;"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="bt_save">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x62a;&#x633;&#x62c;&#x64a;&#x644;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="bt_saveMouseClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x625;&#x633;&#x645; &#x627;&#x644;&#x635;&#x644;&#x627;&#x62d;&#x64a;&#x629; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tx_PermissionName">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
